@@ -1,5 +1,5 @@
 # what files to ignore
-Adult_
+Adult_.*
 .DS_Store
 .ipynb_checkpoints/
-student_
+student.*
