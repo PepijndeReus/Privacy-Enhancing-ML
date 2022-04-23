@@ -2,7 +2,7 @@
 .DS_Store
 .ipynb_checkpoints/
 
-# processed data
+# processed data files
 **/Adult_train.*
 **/Adult_val.*
 **/student_train.*
