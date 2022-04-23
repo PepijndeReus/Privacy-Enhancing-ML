@@ -3,7 +3,7 @@
 .ipynb_checkpoints/
 
 # processed data
-Adult_train.*
-Adult_val.*
-student_train.*
-student_val.*
+**/Adult_train.*
+**/Adult_val.*
+**/student_train.*
+**/student_val.*
