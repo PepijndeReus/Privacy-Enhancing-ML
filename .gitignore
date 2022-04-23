@@ -1,5 +1,9 @@
 # what files to ignore
-Adult_.*
 .DS_Store
 .ipynb_checkpoints/
-student.*
+
+# processed data
+Adult_train.*
+Adult_val.*
+student_train.*
+student_val.*
