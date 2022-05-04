@@ -14,6 +14,7 @@ os.chdir('Adult')
 # measure energy consumption
 pyRAPL.setup()
 meter = pyRAPL.Measurement('Cleaning_adult')
+csv_output = pyRAPL.outputs.CSVOutput('cleaning_adult_energy.csv')
 meter.begin()
 
 # load data, use columns from adult.names file
@@ -53,4 +54,5 @@ adult.to_csv('Adult_val.csv', index=False)
 print("Validation set saved!")
 
 meter.end()
-meter.export('cleaning_adult_energy.csv')
+# csv_output.save()
+meter.export(csv_output)
