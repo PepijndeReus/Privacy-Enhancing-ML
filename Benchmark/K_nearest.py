@@ -18,7 +18,8 @@ meter = pyRAPL.Measurement('kNN')
 meter.begin()
 
 # change directory for Adult data set
-os.getcwd()
+print("We zijn nu hier:")
+print(os.getcwd())
 os.chdir('../Data/Adult')
 
 # load data
