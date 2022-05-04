@@ -12,13 +12,14 @@ import pyRAPL
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import classification_report
 
-# change directory for Adult data set
-os.chdir('../Data/Adult')
-
 # measure energy consumption
 pyRAPL.setup()
 meter = pyRAPL.Measurement('kNN')
 meter.begin()
+
+# change directory for Adult data set
+os.getcwd()
+os.chdir('../Data/Adult')
 
 # load data
 adult_train_data = pd.read_csv('Adult_train_data.csv')
