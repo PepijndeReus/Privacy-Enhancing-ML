@@ -1,0 +1,14 @@
+Adm-clerical,Stores,*
+Exec-managerial,Stores,*
+Handlers-cleaners,Services,*
+Prof-specialty,Other,*
+Other-service,Services,*
+Sales,Stores,*
+Transport-moving,Other,*
+Farming-fishing,Other,*
+Machine-op-inspct,Stores,*
+Tech-support,Services,*
+Craft-repair,Services,*
+Protective-serv,Government,*
+Armed-Forces,Government,*
+Priv-house-serv,Services,*

@@ -1,0 +1,26 @@
+k_values: [3, 10, 27]
+iterations: 10
+input_file: "../Data/Adult/Adult_train.csv"
+class_name: "k_anonymity"
+type: "general"
+method: "Generalization and Suppression"
+data_set: "adult"
+eps_pkg: 1.75
+eps_dram: .2
+
+# columns used
+hierarchy:
+  age: "hierarchy/age.csv"
+  type_employer: "hierarchy/type_employer.csv"
+  education: "hierarchy/education.csv"
+  marital: "hierarchy/marital.csv"
+  occupation: "hierarchy/occupation.csv"
+  relationship: "hierarchy/relationship.csv"
+  race: "hierarchy/race.csv"
+  sex: "hierarchy/sex.csv"
+  capital_gain: "hierarchy/capital_gain.csv"
+  capital_loss: "hierarchy/capital_loss.csv"
+  hr_per_week: "hierarchy/hr_per_week.csv"
+  country: "hierarchy/country.csv"
+  income: "Insensitive"
+suppression_limit: 0.2

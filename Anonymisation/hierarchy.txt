@@ -1,0 +1,6 @@
+school,hierarchy_student/school.csv,
+traveltime,hierarchy_student/traveltime.csv,
+failures,hierarchy_student/failures.csv,
+higher,hierarchy_student/higher.csv,
+famrel,hierarchy_student/famrel.csv,
+G3,Insensitive,

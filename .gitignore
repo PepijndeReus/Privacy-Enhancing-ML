@@ -1,0 +1,21 @@
+# what files to ignore
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.class
+
+# jupyter notebook files
+*.ipynb
+!MachineLearning.ipynb
+
+# processed data files
+Data/Adult/Adult_train*
+Data/Adult/Adult_val*
+Data/Student/student_train*
+Data/Student/student_val*
+Synthetic_data/output/Adult_train*
+Synthetic_data/output/adult*
+Synthetic_data/output/student_train*
+Synthetic_data/output/student*
+Anonymisation/output/Adult_*
+Anonymisation/output/Student_*
