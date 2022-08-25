@@ -1,5 +1,5 @@
 # ThesisAI
-This is the repository that contains my bachelor thesis for the [Artificial Intelligence](https://www.uva.nl/programmas/bachelors/kunstmatige-intelligentie/kunstmatige-intelligentie.html) program of the University of Amsterdam. The thesis lead to [this paper](https://scripties.uba.uva.nl/search?id=728986). The code may be reproduced by referring to the paper.
+This is the repository that contains my bachelor thesis for the [Artificial Intelligence](https://www.uva.nl/programmas/bachelors/kunstmatige-intelligentie/kunstmatige-intelligentie.html) program of the University of Amsterdam. The thesis lead to [this paper](https://dspace.uba.uva.nl/server/api/core/bitstreams/66b80ca2-d130-40d2-a2ac-ef039f6b606c/content). The code may be reproduced by referring to the paper.
 
 ## About the repository
 ### Data
