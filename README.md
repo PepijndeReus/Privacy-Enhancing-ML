@@ -11,10 +11,10 @@ This folder contains the data sets obtained from the UCI machine learning reposi
 The benchmark folder contains the Python scripts for three different machine learning models and one script (run_results.py) that combines these three models to obtain results. After running the results the Performance folder will be filled with measurements of the accuracy and energy consumption for this benchmark.
 
 ### Anonymisation and Synthetic data
-The folders for [Anonymisation](https://github.com/PepijndeReus/ThesisAI/tree/main/Anonymisation) and [Synthetic data](https://github.com/PepijndeReus/ThesisAI/tree/main/Synthetic_data) have separate readme files with introduction and instructions to the code.
+The folders for [Anonymisation](https://github.com/PepijndeReus/ThesisAI/tree/main/Anonymisation) and [Synthetic data](https://github.com/PepijndeReus/ThesisAI/tree/main/Synthetic_data) have separate readme files with introduction and instructions to the code. The folders are used for anonymising or synthesising the data and performing the experiments, after which the results will be stored in these folders respectively.
 
 ### Notebooks
-Three notebooks are provided that use the results to summarise and visualise the data from the experiments. [This notebook](https://github.com/PepijndeReus/ThesisAI/blob/main/analysis_paper.ipynb) contains the plots used in Figures 3 and 4 of the paper. Finally [this notebook](https://github.com/PepijndeReus/ThesisAI/blob/main/MannWhitney.ipynb) contains the code required for the Mann Whitney U test presented in Table V.
+Two notebooks are provided that use the results to summarise and visualise the data from the experiments. [This notebook](https://github.com/PepijndeReus/ThesisAI/blob/main/analysis_paper.ipynb) contains the plots used in Figures 3 and 4 of the paper. Finally [this notebook](https://github.com/PepijndeReus/ThesisAI/blob/main/MannWhitney.ipynb) contains the code required for the Mann Whitney U test presented in Table V.
 
 The used notebooks for Tables II-IV and VI are available in the folders Anonymisation and Synthetic data.
 
