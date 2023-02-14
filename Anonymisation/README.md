@@ -1,18 +1,24 @@
+# Anonymisation
 This folder contains the files needed for the anonymisation of the data sets.
 The code is written in a combination of Python and Java, which makes the use of a [library](https://github.com/PepijndeReus/ThesisAI/tree/main/Anonymisation/libraries) folder necessary.
 Please note that the [hierarchy](https://github.com/PepijndeReus/ThesisAI/tree/main/Anonymisation/hierarchy) folder and it's components are to be made manually for each data set. Hierarchy links to adult and [hierarchy_student](https://github.com/PepijndeReus/ThesisAI/tree/main/Anonymisation/hierarchy_student) links to hierarchy for the student data set.
 
-To run the anonymisation code, do the following:
-1. Make sure you use the right hierarchy (see below)
-2. First compile the code using: 'javac -cp .:libraries/* k_anonymity.java'
-3. Then run the code using 'python3 k-anonymity.py {dataset}.yaml'
-with dataset being either student or adult
-4. The results will be saved as .csv files in the output folder that can now be used to train machine learning models. (Note that preprocessing is required)
+## Instructions for reproduction
+To run the anonymisation code, use the following instructions:
+1. Make sure to use the right hierarchy (see Hierachy section below)
+2. First compile the code using:
+"javac -cp .:libraries/* k_anonymity.java"
+3. Then run the code using
+"python3 k-anonymity.py {dataset}.yaml"
+where dataset is to be replaced by either student or adult
+4. Preprocess the data using preprocessing.py
+5. Run the results using run_results_anony.py
+The output will now be stored in the folders Accuracies, Energy and output.
 
-The summary of results of this code can be found in [this file](https://github.com/PepijndeReus/ThesisAI/blob/main/Anonymisation/_Analyse.ipynb).
+The summary of results of this code can be found in [this notebook](https://github.com/PepijndeReus/ThesisAI/blob/main/Anonymisation/_Analysis.ipynb).
 
 ### Hierarchy
-Copy and paste the right hierarchy into the hierarchy.txt file before running. Due to time contraints this, unfortunately, has not been automised.
+Copy and paste the right hierarchy into the hierarchy.txt file before running the experiment. Due to time contraints this, unfortunately, has not been automised.
 
 **Adult hierarchy** :\
 age,Quasi_identifying,Decimal,arithmic_mean
