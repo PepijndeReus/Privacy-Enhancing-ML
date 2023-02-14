@@ -7,10 +7,14 @@ Please note that the [hierarchy](https://github.com/PepijndeReus/ThesisAI/tree/m
 To run the anonymisation code, use the following instructions:
 1. Make sure to use the right hierarchy (see Hierachy section below)
 2. First compile the code using:
-"javac -cp .:libraries/* k_anonymity.java"
+```
+javac -cp .:libraries/* k_anonymity.java
+```
 3. Then run the code using
-"python3 k-anonymity.py {dataset}.yaml"
-where dataset is to be replaced by either student or adult
+```
+python3 k-anonymity.py {dataset}.yaml
+```
+where dataset is to be replaced by either student or adult.
 4. Preprocess the data using preprocessing.py
 5. Run the results using run_results_anony.py
 The output will now be stored in the folders Accuracies, Energy and output.
