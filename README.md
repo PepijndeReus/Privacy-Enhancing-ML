@@ -14,7 +14,9 @@ The benchmark folder contains the Python scripts for three different machine lea
 The folders for [Anonymisation](https://github.com/PepijndeReus/ThesisAI/tree/main/Anonymisation) and [Synthetic data](https://github.com/PepijndeReus/ThesisAI/tree/main/Synthetic_data) have separate readme files with introduction and instructions to the code.
 
 ### Notebooks
-Three notebooks are provided that use the results to summarise and visualise the data from the experiments. [This notebook](https://github.com/PepijndeReus/ThesisAI/blob/main/_Analysis.ipynb) links to the energy consumptions provided in Tables II-IV and VI. [This notebook](https://github.com/PepijndeReus/ThesisAI/blob/main/analysis_paper.ipynb) contains the plots used in Figures 3 and 4 of the paper. Finally [this notebook](https://github.com/PepijndeReus/ThesisAI/blob/main/MannWhitney.ipynb) contains the code required for the Mann Whitney U test presented in Table V.
+Three notebooks are provided that use the results to summarise and visualise the data from the experiments. [This notebook](https://github.com/PepijndeReus/ThesisAI/blob/main/analysis_paper.ipynb) contains the plots used in Figures 3 and 4 of the paper. Finally [this notebook](https://github.com/PepijndeReus/ThesisAI/blob/main/MannWhitney.ipynb) contains the code required for the Mann Whitney U test presented in Table V.
+
+The used notebooks for Tables II-IV and VI are available in the folders Anonymisation and Synthetic data.
 
 ### Miscellaneous
 The gitignore file is set up to ignore preprocessed data sets and results to keep the repository small in size. It also ignores .ipynb files and the checkpoints of these as these were used for development purposes only.
