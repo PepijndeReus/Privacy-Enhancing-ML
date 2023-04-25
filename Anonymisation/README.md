@@ -1,5 +1,6 @@
 # Anonymisation
 This folder contains the files needed for the anonymisation of the data sets.
+For this section we use the [ARX library](https://github.com/arx-deidentifier/arx) as explained in our paper.
 The code is written in a combination of Python and Java, which makes the use of a [library](https://github.com/PepijndeReus/ThesisAI/tree/main/Anonymisation/libraries) folder necessary.
 Please note that the [hierarchy](https://github.com/PepijndeReus/ThesisAI/tree/main/Anonymisation/hierarchy) folder and it's components are to be made manually for each data set. Hierarchy links to adult and [hierarchy_student](https://github.com/PepijndeReus/ThesisAI/tree/main/Anonymisation/hierarchy_student) links to hierarchy for the student data set.
 
