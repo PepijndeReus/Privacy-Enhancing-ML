@@ -1,5 +1,5 @@
-# ThesisAI
-This is the repository that contains the code for the paper published on ICT4S'23. The code may be reproduced by referring to this paper. All files should have sufficient documentation for reproduction and understanding. Any remaining questions or comments may be sent to p.dereus@uva.nl.
+# ICT4S'23: Energy cost and machine learning accuracy impact of k-anonymisation and synthetic data techniques
+This is the repository that contains the code for the [ICT4S'23 paper](https://scholar.google.com/scholar?oi=bibs&hl=nl&cluster=18290856347761732206). The code may be reproduced by referring to this paper. The presentation of the paper was recorded, you can find the recording [here](https://www.youtube.com/watch?v=WccsQ_PoL5U&t=3665s&ab_channel=ICT4SConferenceOnlineChannel). The [slides](https://github.com/PepijndeReus/ThesisAI/blob/main/ICT4S-presentation.pptx) are provided in this repository. All files should have sufficient documentation for reproduction and understanding. Any remaining questions or comments may be sent to [my e-mail](mailto:p.dereus@uva.nl).
 
 ## About this repository
 The repository is structured with the following folders and files:
