@@ -1,6 +1,6 @@
 """
 This file is used to measure the energy consumption of running the ARX anonymisation algorithm.
-Please that the code was based upon earlier work by
+Please note that the code was based upon earlier work by
 https://github.com/ana-oprescu/Energy-cost-of-k-anonymity/blob/main/Anonymization/RAPL_on_Java.py
 """
 
