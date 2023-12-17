@@ -1,6 +1,18 @@
 # ICT4S'23: Energy cost and machine learning accuracy impact of k-anonymisation and synthetic data techniques
 This is the repository that contains the code for the [ICT4S'23 paper](https://ieeexplore.ieee.org/document/10292174). The code may be reproduced by referring to this paper. The presentation of the paper was recorded, you can find the recording [here](https://www.youtube.com/watch?v=WccsQ_PoL5U&t=3665s&ab_channel=ICT4SConferenceOnlineChannel). The [slides](https://github.com/PepijndeReus/Privacy-Enhancing-ML/blob/main/ICT4S23-presentation.pptx) are provided in this repository. All files should have sufficient documentation for reproduction and understanding. Any remaining questions or comments may be sent to [my e-mail](mailto:p.dereus@uva.nl).
 
+The article and/or this repository should be cited as:
+```
+@inproceedings{de2023energy,
+  title={Energy cost and machine learning accuracy impact of k-anonymisation and synthetic data techniques},
+  author={{de Reus}, Pepijn and Oprescu, Ana and {van Elsen}, Koen},
+  booktitle={ICT4S, June 2023, Rennes, France},
+  pages={57--65},
+  year={2023},
+  organization={International Conference on ICT for Sustainability}
+}
+```
+
 ## About this repository
 The repository is structured with the following folders and files:
 ### Data
