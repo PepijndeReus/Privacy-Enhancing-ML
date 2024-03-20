@@ -5,11 +5,11 @@ The article and/or this repository should be cited as:
 ```
 @inproceedings{de2023energy,
   title={Energy cost and machine learning accuracy impact of k-anonymisation and synthetic data techniques},
-  author={{de Reus}, Pepijn and Oprescu, Ana and {van Elsen}, Koen},
-  booktitle={ICT4S, June 2023, Rennes, France},
+  author={de Reus, Pepijn and Oprescu, Ana and van Elsen, Koen},
+  booktitle={2023 International Conference on ICT for Sustainability (ICT4S)},
   pages={57--65},
   year={2023},
-  organization={International Conference on ICT for Sustainability}
+  organization={IEEE}
 }
 ```
 
